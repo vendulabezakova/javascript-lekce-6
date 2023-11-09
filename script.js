@@ -12,7 +12,62 @@ document.body.innerHTML = `
 <p>736259454 - ${validator.isMobilePhone("736259454", "cs-CZ")}</p>
 `*/
 
-document.body.innerHTML = `
-<p>Dnes je ${dayjs().format("DD/MM")}</p>
+/*document.body.innerHTML = `
+<p>Dnes je ${dayjs().format("dddd/DD/MM")}</p>
 <p>Aktuální rok je ${dayjs().format("YYYY")}</p>
+`*/
+
+/*const christmas = dayjs("2023-12-24")
+const today = dayjs()
+
+if(today.isAfter(christmas)) {
+    document.body.innerHTML = "Smůla. :-( Už je po Vánocích."
+} else {
+    document.body.innerHTML = "Brzy přijde Ježíšeeeek!!!"
+}*/
+
+/*DOKONČIT!!! Úkol č. 1* https://kodim.cz/vyvoj-webu/js1/lekce/knihovny-vlastni-funkce/cv-knihovny/zakladni-validace/*/
+
+/*const email = prompt("Zadej svůj e-mail")
+const creditCard = prompt("Zadej číslo platební karty")
+
+document.body.innerHTML = `
+<p>${email} - Adresa je ${validator.isEmail(email)}</p>
+<p>${creditCard} - Číslo karty je ${validator.isCreditCard(creditCard)}</p>
 `
+
+if(validator.isEmail(email)) {
+    document.body.innerHTML = "E-mail je v pořádku."
+} else {
+    document.body.innerHTML = "Neplatný e-mail!"
+}*/
+
+/*Vlastní funkce*/
+/*
+function mojeFunkce(cislo) { Starý typ zápisu funkce
+    return cislo * 5
+}
+
+const druhaFunkce = function (cislo) {
+    return cislo * 2
+}
+
+const tretiFunkce = (cislo) => { 
+    return cislo * 7
+} /*ARROW FUNKCE = Nejnovější a nejelegantnější typ zápisu, v určitých chvílích dokáže ušetřit spoustu kódu
+
+document.body.innerHTML = `
+<p>${mojeFunkce(30)}</p>
+<p>${druhaFunkce(10)}</p>
+<p>${tretiFunkce(10)}</p>
+`*/
+
+/* ÚKOL https://kodim.cz/vyvoj-webu/js1/lekce/knihovny-vlastni-funkce/cv-vlastni-funkce/obsah-elipsy */
+
+
+const ellipseArea = (width, height) => {
+    return (width / 2) * (height / 2) * Math.PI;
+  };
+  
+  document.body.innerHTML += `<p>${ellipseArea(1, 2)}</p>`;
+  document.body.innerHTML += `<p>${ellipseArea(2, 2)}</p>`;

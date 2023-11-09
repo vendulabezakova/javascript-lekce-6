@@ -2,3 +2,11 @@ h1 {
     font-size: 32px;
     color: rgb(164, 119, 206);
 }
+
+.msg--valid {
+    color: green;
+}
+
+.msg--invalid {
+    color: rgb(151, 8, 8);
+}
