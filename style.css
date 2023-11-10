@@ -10,3 +10,7 @@ h1 {
 .msg--invalid {
     color: rgb(151, 8, 8);
 }
+
+.msg {
+    padding: 10px;
+}

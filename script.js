@@ -26,21 +26,21 @@ if(today.isAfter(christmas)) {
     document.body.innerHTML = "Brzy přijde Ježíšeeeek!!!"
 }*/
 
-/*DOKONČIT!!! Úkol č. 1* https://kodim.cz/vyvoj-webu/js1/lekce/knihovny-vlastni-funkce/cv-knihovny/zakladni-validace/*/
+/*Úkol č. 1* https://kodim.cz/vyvoj-webu/js1/lekce/knihovny-vlastni-funkce/cv-knihovny/zakladni-validace/*/
 
-/*const email = prompt("Zadej svůj e-mail")
-const creditCard = prompt("Zadej číslo platební karty")
+/*const email = prompt("Zadej svůj e-mail"); /*Vstup od uživatele */
+/*const isEmail = validator.isEmail(email); /*Validace, zda jde o mail*/
+/*const messageElement = document.querySelector('#msg'); /*Výstup bude messageElement s ID #msg, v podmínce pomocí classList vyberu třídu, která se má aplikovat na zprávu.*/
 
-document.body.innerHTML = `
-<p>${email} - Adresa je ${validator.isEmail(email)}</p>
-<p>${creditCard} - Číslo karty je ${validator.isCreditCard(creditCard)}</p>
-`
 
-if(validator.isEmail(email)) {
-    document.body.innerHTML = "E-mail je v pořádku."
+/*if(isEmail) {
+    messageElement.textContent = "E-mail je v pořádku.";
+    messageElement.classList.add('msg--valid');
 } else {
-    document.body.innerHTML = "Neplatný e-mail!"
+    messageElement.textContent = "E-mail není správný.";
+    messageElement.classList.add('msg--invalid');
 }*/
+
 
 /*Vlastní funkce*/
 /*
@@ -65,9 +65,9 @@ document.body.innerHTML = `
 /* ÚKOL https://kodim.cz/vyvoj-webu/js1/lekce/knihovny-vlastni-funkce/cv-vlastni-funkce/obsah-elipsy */
 
 
-const ellipseArea = (width, height) => {
+/*const ellipseArea = (width, height) => {
     return (width / 2) * (height / 2) * Math.PI;
   };
   
   document.body.innerHTML += `<p>${ellipseArea(1, 2)}</p>`;
-  document.body.innerHTML += `<p>${ellipseArea(2, 2)}</p>`;
+  document.body.innerHTML += `<p>${ellipseArea(2, 2)}</p>`;*/
